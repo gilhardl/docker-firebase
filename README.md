@@ -2,9 +2,9 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/firebase.svg?style=flat-square)](https://hub.docker.com/r/gilhardl/firebase/)
 
-Docker image for Firebase CLI
+Docker image for Firebase CLI, based on [gilhardl/node](https://github.com/gilhardl/docker-node)
 
-----------------------------------------
+---
 
 **Firebase CLI :** 7.3.6
 
@@ -18,8 +18,7 @@ Docker image for Firebase CLI
 
 **Package manager:** yarn
 
-----------------------------------------
-
+---
 
 # Usage
 
