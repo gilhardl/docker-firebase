@@ -1,29 +1,27 @@
 # docker-firebase
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/firebase.svg?style=flat-square)](https://hub.docker.com/r/gilhardl/firebase/)
-
 Docker image for Firebase CLI, based on [gilhardl/node](https://github.com/gilhardl/docker-node)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/firebase.svg?style=flat-square&label=PULLS)](https://hub.docker.com/r/gilhardl/firebase/)
 
 ---
 
-**Firebase CLI :** 7.3.6
+![OS](https://img.shields.io/static/v1.svg?style=flat-square&label=OS&message=Linux%20Alpine)
 
-**Node.js :** v10.15.3
+![FIREBASE CLI](https://img.shields.io/npm/v/firebase.svg?style=flat-square&label=FIREBASE%20CLI)
 
-**NPM :** v6.4.1
+![NODE](https://img.shields.io/npm/v/node/lts.svg?style=flat-square&label=NODE)
+![NPM](https://img.shields.io/npm/v/npm/lts.svg?style=flat-square&label=NPM)
+![YARN](https://img.shields.io/npm/v/yarn/latest.svg?style=flat-square&label=YARN)
 
-**Yarn :** 1.13.0
-
-**OS :** Linux alpine x64
-
-**Package manager:** yarn
+![PACKAGE MANAGER](https://img.shields.io/static/v1.svg?style=flat-square&label=PACKAGE%20MANAGER&message=Yarn)
 
 ---
 
 # Usage
 
 ```
-docker run -it --name FIREBASE -v /path/to/your/project:/usr/src/app -p 9005:9005 gilhardl/firebase
+docker run -it --name firebase -v /path/to/your/project:/usr/src/app -p 9005:9005 gilhardl/firebase
 ```
 
 # Licence
